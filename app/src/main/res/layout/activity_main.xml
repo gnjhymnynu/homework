@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="簡歷"
-        android:textSize="36sp"/>
+        android:textSize="32sp"/>
 
     <Button
         android:id="@+id/btn"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:onClick="happy"
         android:text="姓名"
-        android:textSize="32sp" />
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/txv2"
@@ -30,13 +30,31 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text=""
-        android:textSize="32sp"/>
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="介紹"
-        android:textSize="32sp"/>
+        android:textSize="24sp"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="117dp"
+        android:layout_height="116dp"
+        app:srcCompat="@drawable/home2" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="122dp"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="514dp"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/me" />
 
 </LinearLayout>
